@@ -69,6 +69,26 @@ p {
     
 }
 
+#home {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 4.4px 20px;
+    font-size: 15.5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;  /* Distance from the top */
+    left: 1216px; /* Distance from the left */
+    transition: transform 0.3s ease;
+}
+
+#home:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+
 #aboutus {
     background-color: #1a1a1a;
     color: white;
@@ -80,10 +100,12 @@ p {
     position: absolute;
     top: 5px;  /* Distance from the top */
     left: 1300px; /* Distance from the left */
+    transition: transform 0.3s ease;
 }
 
 #aboutus:hover {
     background-color: #333;
+    transform: scale(1.05);
 }
 
 #contact {
@@ -97,10 +119,24 @@ p {
     position: absolute;
     top: 5px;  /* Distance from the top */
     left: 1400px; /* Distance from the left */
+    transition: transform 0.3s ease;
 }
-
 #contact:hover {
     background-color: #333;
+    transform: scale(1.05);
+}
+
+#defend {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 3px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 500px;  /* Distance from the top */
+    left: 590px; /* Distance from the left */
 }
 
 #lawyer {
