@@ -25,6 +25,20 @@ document.addEventListener("DOMContentLoaded", function () {
             window.location.href = "cases.html";
         });
     }
+
+    const homeBtn = document.getElementById("home");
+    if (homeBtn) {
+        homeBtn.addEventListener("click", function () {
+            window.location.href = "home.html";
+        });
+    }
+
+    const defendBtn = document.getElementById("defend");
+    if (defendBtn) {
+        defendBtn.addEventListener("click", function () {
+            window.location.href = "defend.html";
+        });
+    }
 });
 
 
