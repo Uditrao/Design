@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const homeBtn = document.getElementById("home");
     if (homeBtn) {
         homeBtn.addEventListener("click", function () {
-            window.location.href = "home.html";
+            window.location.href = "index.html";
         });
     }
 
