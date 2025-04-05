@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <script src="script.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -53,9 +54,70 @@
             font-size: 1.2em;
             margin: 10px 0;
         }
+
+        #home {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 4.4px 20px;
+            font-size: 15.5px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            position: absolute;
+            top: 5px;  /* Distance from the top */
+            left: 1216px; /* Distance from the left */
+            transition: transform 0.3s ease;
+        }
+
+        #home:hover {
+            transform: scale(1.05);
+            background-color: #333;
+        }
+
+
+        #aboutus {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 5px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            position: absolute;
+            top: 5px;  /* Distance from the top */
+            left: 1300px; /* Distance from the left */
+            transition: transform 0.3s ease;
+        }
+
+        #aboutus:hover {
+            background-color: #333;
+            transform: scale(1.05);
+        }
+
+        #contact {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 5px 20px;
+            font-size: 14px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            position: absolute;
+            top: 5px;  /* Distance from the top */
+            left: 1400px; /* Distance from the left */
+            transition: transform 0.3s ease;
+        }
+
+        #contact:hover {
+            background-color: #333;
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body>
+    <button id="home">Home</button>
+    <button id="aboutus">About Us</button>
+    <button id="contact">Contact </button>
     <div class="container">
         <h1>About Us</h1>
         <p>We are dedicated to providing individuals with the resources they need to handle property disputes effectively. Our platform offers detailed legal information, practical defense strategies, examples of past cases, and access to a network of experienced property lawyers.</p>
