@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf5ed;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #222;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            gap: 15px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+             transform: scale(1.05);
+        }
+
+        .card img {
+            width: 40px;
+            height: auto;
+        }
+        .card h3 {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Us</h1>
+        <p>We are dedicated to providing individuals with the resources they need to handle property disputes effectively. Our platform offers detailed legal information, practical defense strategies, examples of past cases, and access to a network of experienced property lawyers.</p>
+        <div class="cards">
+            <div class="card">
+                <img src="https://img.icons8.com/?size=100&id=42763&format=png&color=000000" alt="Legal Information">
+                <h3>Legal Information</h3>
+                <p>We provide up-to-date and easy-to-understand information on property laws.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/?size=100&id=10297&format=png&color=000000" alt="Defense Strategies">
+                <h3>Defense Strategies</h3>
+                <p>We outline techniques and approaches to help you protect your property rights.</p>
+            </div>
+            <div class="card">
+                <img src="https://img.icons8.com/?size=100&id=9482&format=png&color=000000" alt="Experienced Lawyers">
+                <h3>Experienced Lawyers</h3>
+                <p>We connect you with skilled property lawyers to assist with your case.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
